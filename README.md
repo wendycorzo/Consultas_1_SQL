@@ -64,3 +64,11 @@ O se puede utilizar el operador `OR`
 `SELECT * FROM Cliente WHERE nombre LIKE '%a%'`
 
 ![Consultas7](consulta7.png "consulta 7")
+
+### consulta No. 8
+
+8. se desea obtener registros donde la cuarta letra del nombre del cliente sea la letra 'a'
+
+`SELECT * FROM `Cliente WHERE nombre LIKE '____a''
+
+![Consultas8](consulta8.png "consulta 8")
