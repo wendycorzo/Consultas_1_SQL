@@ -112,5 +112,17 @@ O se puede utilizar el operador `OR`
 
 ![actualizacion1](actualizacion1.png "actualizacion 1")
 
+## Creación tabla Pedido
+### Diccionario de datos
+|Campo|Tipo de dato|Longitud|
+|-----|------------|--------|
+|***no_pedido**|varchar|15|
+|iden_cliente|varchar|15|
+|fecha_compra|date||
+|fecha_vencimienti|date||
+|telefono|varchar|20|
+|observacion|varchar|30|
 
+### modelo entidad - Relacion
+![modelo](modelo.png "modelo")
 
