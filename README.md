@@ -81,3 +81,18 @@ O se puede utilizar el operador `OR`
 
 ![Consultas9](consulta9.png "consulta 9")
 
+## Instruccion DELETE
+- permite borrar todos o un grupo especifico de registros de una tabla
+- su formato es: `SELECT campos_tabla FROM nombre_tabla`
+
+### Eliminación No. 1
+
+1. Eliminar los registros cuya identificacion sea mayor a 116
+
+`DELETE FROM `clientes` WHERE identificación > 116`
+
+![eliminacion1](eliminacion1.png "eliminacion 1")
+
+
+
+
