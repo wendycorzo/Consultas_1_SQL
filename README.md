@@ -123,7 +123,24 @@ O se puede utilizar el operador `OR`
 |telefono|varchar|20|
 |observacion|varchar|30|
 
-### modelo entidad - Relacion
+## Tabla: Pedido
+
+![Tablapedido](Tablapedido.png "Tablapedido")
+
+### Modelo entidad - Relacion
+
 ![modelo](modelo.png "modelo")
-![tablapedido](tablapedido.png "tablapedido")
+
+## Operadorr INNER JOIN
+- Permite obtener datos de dos o mas tablas.
+- Cuando se realiza la concatenación de las tablas, no necesariamente se deben mostrar todos los datos de las tablas.
+- su formato es:
+`SELECT tabla1.cmpo, tabla2.campo, ... FROM tabla_principal INNER JOIN tabla_secundaria ON campo_comun_tabla1 = campo_comun_tabla2`
+
+1. Para visualizar los campos identificacion,nombre, apelllidos de la tabla Cliente y no pedido, fecha_compra, fecha_vencimiento y observacion de la tabla pedido, se debe realizar la siguiente instrucción:
+
+`SELECT Cliente.identificacion, Cliente.nombre, Cliente.apellidos, Pedido.no_pedido, Pedido.fecha_compra, Pedido.fecha_vencimiento, Pedido.observacion FROM Cliente INNER JOIN Pedido ON Cliente.identificacion = Pedido.iden_cliente`
+
+![Inner join](innerjoin1.png "inner join 1")
+
 
